@@ -1,0 +1,47 @@
+.PieChart--Container {
+	background-color: #fbfbfb;
+	border-radius: 5px;
+	background: #fbfbfb;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.02);
+
+	position: relative;
+}
+
+.PieChart--Title {
+	position: absolute;
+	top: 24px;
+	left: 30px;
+
+	color: #20253a;
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px; /* 160% */
+}
+
+.PieChart--TxtContainer {
+	position: absolute;
+	top: 35%;
+	left: 32%;
+	width: 95px;
+	height: 56px;
+	text-align: center;
+
+	color: #74798c;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+}
+
+.PieChart--Score {
+	color: #282d30;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px; /* 100% */
+}
