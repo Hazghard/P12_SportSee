@@ -2,30 +2,23 @@
 
 This is how to use this BackEnd + FrontEnd git project.
 
-Step 1 : Download both Files
-Step 2 : In your code editor, for the BackEnd, initliase node mudules with 
-***npm i
-Step 3 : Launch the BackEnd with  the command : 
-***yarn dev (or npm equivalent)
+## Step 1 : Download both Files
+## Step 2 : In your code editor, for the BackEnd, initliase node mudules with 
+```npm i```
+## Step 3 : Launch the BackEnd with  the command : 
+```yarn dev (or npm equivalent)```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Step 4 : Launch an other code editor window for the FronEnd file, initliase node mudules with 
+```npm i```
+## Step 5 : Launch the FrontEnd with  the command : 
+```npm run dev```
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# How to use the front
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## On the interface you will find on the top left (just after the logo) a toggle switch and an dropdown option list
+- The default option is to use the API (Backend)
+- If you want to swap between users, use to dropdown option list
+- You can swap between API and MOCK clicking on the toggle button as much as you want
+- Once in Mock, its the saved data from the JSON file that are used (you can be sure of this by pressing ```CTRL+C``` on your BackEnd code terminal to shut down the backend
+- Then once you switch to API, the code Error 404 will appear
