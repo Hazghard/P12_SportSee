@@ -1,0 +1,52 @@
+.SimpleAreaChart--Container {
+	width: 258px;
+	height: 100%;
+	position: relative;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #ff0000;
+	overflow: hidden;
+}
+
+.SimpleAreaChart--Title {
+	position: absolute;
+	width: 147px;
+	top: 29px;
+	left: 34px;
+	z-index: 999;
+	color: #fff;
+	opacity: 0.504;
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px; /* 160% */
+}
+
+.SimpleAreaChart--Tooltip {
+	width: 39px;
+	height: 25px;
+	background: #fff;
+}
+
+.SimpleAreaChart--Text {
+	color: #000;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 8px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px; /* 300% */
+}
+
+.GraphFilter {
+	position: absolute;
+	background: #000;
+	opacity: 0.0975;
+	z-index: 2;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}

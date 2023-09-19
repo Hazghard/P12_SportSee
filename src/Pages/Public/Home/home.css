@@ -1,0 +1,56 @@
+.HomeContainerSection {
+	display: flex;
+	flex-direction: column;
+	padding: 68px 90px 0px 107px;
+	width: calc(100vw - 117px);
+	height: 100%;
+}
+
+.HomeContainerSection.loading {
+	justify-content: center;
+	align-items: center;
+}
+
+.DataContainer {
+	display: grid;
+	grid-template-columns: auto max-content;
+	grid-column-gap: 31px;
+	width: 100%;
+	max-width: 1300px;
+}
+
+.KeyDataContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 39px;
+}
+
+.LowerChartsContainer {
+	width: 835px;
+	height: 263px;
+}
+
+.GraphsContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.LowerChartsContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 30px;
+}
+
+@media (max-width: 1400px) {
+	.DataContainer {
+		grid-template-columns: max-content;
+		justify-content: center;
+	}
+	.KeyDataContainer {
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-content: space-evenly;
+		padding-top: 20px;
+	}
+}
